@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    }
+    
+    .quotes{
+    background-color: #fffeff;
+    width: 700px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px 10px #dd456d;
+    padding: 20px;
+    }
+
+    .quotes .isi{
+    font-size: 1.5em;
+    margin-top: -10px;
+    text-align: center;
+    }
+
+    .quotes p{
+        margin-top: 70px;
+    }
+
+    .btns ul{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+    }
+
+    button{
+        display: flex;
+        background: white;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer{
+    position: absolute;
+    margin-top: 500px;
+    color: #fff;
+    }
